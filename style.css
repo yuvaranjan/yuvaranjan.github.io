@@ -18,10 +18,13 @@
     --lightpurple: #be7eec;
     --blue: #3a6cf4;
     --navblue: #222825;
-    --new: #c9daff;
-    --new2: #6f99f2;
 
-
+    --new: #fdf080;
+    --new2: #30363c;
+    --new3: #be7eec;
+    
+    --new233: #ddc6ed;
+    --new2333: #b67aee;
 
     --textlight: var(--light);
     --textdark: var(--dark);
@@ -122,7 +125,7 @@ nav .navigation a{
   
 nav .navigation a:hover{
     color: aliceblue;
-    background-color: var(--new2);
+    background-color: var(--new3);
     transform: scale(125%);
   }
 
@@ -274,7 +277,7 @@ nav .navigation a:hover{
 .homepage .sec1 {
     height: 100vh;
     width: auto;
-    background: url(images/home_bg1.jpg) center center no-repeat;
+    background: url(images/home_bg1.jpg) 57% 50%  no-repeat;
     background-size: cover;
 
 }
