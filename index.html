@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>UV | Home</title>
+
+  <!-- Bootstrap, CSS and JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="/games/pacman.js"></script>
+<script src="/games/libraries/p5.js"></script>
+
+
+  <!-- Google Fonts and icon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
+<body class="homepage">
+
+ <!-- <div id="preloader"></div> Pre Loader -->
+
+
+<div class="scroll-progress" id="scroll-progress"></div> <!-- Sroll Progress -->
+
+<div class="scrollToTop-btn">  <!-- Sroll to top -->
+  <i class="fas fa-angle-up"></i>
+</div>
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+  <div class="container-fluid">
+    <a class=" brand" href="index.html">
+      <img src="images/logo.png" alt="Logo" style="width:50px;" >
+    </a>
+    <div class="menu-btn" id="menu-btn"></div>
+    <div class="collapse navbar-collapse  navigation" >
+      <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="games/gamemenu.html">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- ------------------ --> 
+
+
+<!-- SECTION 1 -->
+<section class="vertical-center sec1" > 
+  <div class="container-md ">
+    <div class="textbox textbox1 hidden-left">
+      <h1>Hello, I'm <br><span class="uv">Yuvaranjan</span></h1>
+      <div class="animated-text">
+        <h3>Graphic Designer</h3>
+        <h3>AI & ML Engineer</h3>
+        <h3>Web Designer</h3>
+
+      </div>
+    </div>
+    <a href="games\gamemenu.html" class="btn hidden-middle">Explore</a>
+    <a href="contact.html" class="btn hidden-middle">Contact</a>
+
+  </div>
+</section>
+<!-- ------------------ --> 
+
+
+<!-- SECTION 2 -->
+<section class="vertical-center sec2">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-md-5 ">
+        <div class="img-box hidden-right"><img src="images/portrait2.jpg" class=" " alt="My Portrait Picture"></div>
+      </div>
+      <div class="col-md-7 text ">
+        <h1 class="hidden-left">About Me.</h1>
+        <h3 class="hidden-left">Hey there! I am <span class="uv">Yuvaranjan</span></h3>
+        <p class="hidden-left">Hello! I’m an ambivert who loves design and coding, and I’m currently a freshman student at SKCET, pursuing Computer Science Engineering with a specialization in Artificial Intelligence and Machine Learning. My hobbies include photography and playing badminton, and I enjoy travelling the world.
+          <br> <br> I’m a great communicator and make it a point to stay updated with the latest industry trends and emerging technologies. I’m passionate about combining creativity with technology to build modern, engaging, and impactful solutions. Whether in design or AI-driven projects, I strive to create work that is innovative, meaningful, and of the highest quality.</p>
+      </div>
+    </div>
+  </div>  
+</section>
+<!-- ------------------ --> 
+
+
+<!-- SECTION 3 -->    
+<section class="vertical-center sec3">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-md-5 text hidden-left">
+        <h1>My Skills.</h1>
+        <p>I have a strong foundation in web design and development, with knowledge of HTML, CSS, JavaScript, and other programming languages. Alongside coding, I have experience working with creative tools like Adobe Creative Suite (Photoshop, Illustrator, InDesign, and Premiere Pro), which allows me to bring together both technical and design perspectives.
+          <br> <br> My skill set spans across front-end development, UI/UX design, digital imaging, and layout design. I also enjoy working on projects that involve problem-solving, data-driven thinking, and modern technologies in AI and ML. With creativity and a keen eye for detail, I strive to create designs and solutions that are both functional and visually impactful.
+        </p>
+        
+        <div class="img-box"></div>
+      </div>
+      <div class="col-md-7 progress-box hidden-right">
+        <div class="progress my-3">
+          <div class="pro-value " id="provalue1">
+            <p>Graphic Designing <span class="text-white float-right ">98%</span></p>
+          </div>
+        </div>
+        <div class="progress my-3">
+          <div class="pro-value " id="provalue2" >
+            <p>Web Designing <span class="text-white ">95%</span></p>
+          </div>
+        </div>
+        <div class="progress my-3">
+          <div class="pro-value " id="provalue3">
+            <p>UI / UX designing <span class="text-white float-right ">96%</span></p>
+          </div>
+        </div>
+        <div class="progress my-3">
+          <div class="pro-value " id="provalue4">
+            <p>Photography <span class="text-white float-right ">94%</span></p>
+          </div>
+        </div>
+        <div class="progress my-3">
+          <div class="pro-value " id="provalue5">
+            <p>Content Writing <span class="text-white float-right">97%</span></p>
+          </div>
+        </div>
+        <a href="games\gamemenu.html" class="btn mt-5">My Work</a>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<!-- ------------------ -->
+
+<!-- SECTION 4 -->    
+<section class="vertical-center sec4">
+  <div class="container-md pacman hidden-middle" id="pacman">
+    <h1 >Lets Play a Game</h1>
+    <div class="row ">
+      <div class="canvadiv" id="canvadiv" ></div>
+    </div> 
+    <div class="row pt-5 canva-input ">
+      <div class="col-sm "> <div class="pacmancolor" id="pacmancolor"> </div> <h4>select PacMan color</h4></div>
+      <div class="col-sm "> <div class="bgcolor" id="bgcolor"></div> <h4>select Background color</h4> </div>
+      <div class="col-sm "> <div class="slider py-1" id="slider"></div> <h4>Set PacMan Speed</h4></div>
+    </div>
+    <div class="row">
+      <a href="/games/gamemenu.html" class="btn mt-5">More games like this</a>
+    </div>      
+
+  </div>
+</section>
+
+<!-- ------------------ -->
+
+
+ 
+<!---->
+<script src="script.js"> </script>
+
+<script>
+
+</script>
+
+
+
+</body>
+</html>
